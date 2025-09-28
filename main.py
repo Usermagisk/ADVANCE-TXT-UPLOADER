@@ -881,4 +881,4 @@ async def my_func(url):
 
 bot.run()
 if __name__ == "__main__":
-    bot.run()
+    asyncio.run(main())
